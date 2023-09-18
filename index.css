@@ -1,0 +1,86 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 390px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.header-logo {
+    object-fit: contain;
+    width: 120px;
+}
+
+.header-user {
+    object-fit: contain;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+.container {
+    display: flex;
+    margin: 0 12px;
+}
+.post-avatar {
+    object-fit: contain;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    margin-top: 18px;
+    
+}
+
+.poster-info {
+    margin: 0 10px;
+}
+.poster-info h4 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.poster-info p {
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.vangogh-post {
+    width: 390px;
+}
+
+.icons {
+    object-fit: contain;
+    width: 8%;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.icons:hover,
+.icons:focus {
+    opacity: .5;
+    cursor:pointer;
+}
+
+
+.likes-amount {
+    margin: 10px 12px 0;
+}
+
+.poster-container {
+    display: flex;
+    margin: 0 12px;
+}
+
+.poster-container p {
+    margin-top: 20px;
+    margin-left: 6px;
+    font-size: 14px;
+}
