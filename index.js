@@ -35,20 +35,20 @@ for (let i = 0; i < posts.length; i++) {
     userPosts.innerHTML += `
     <section>
     <div class="container">
-        <img class="post-avatar" src=${posts[i].avatar}>
+        <img class="post-avatar" src=${posts[i].avatar} alt="Poster's profile picture">
         <div class="poster-info">
             <h4>${posts[i].name}</h4>
             <p>${posts[i].username}</p>
         </div>
     </div>
-    <img class="vangogh-post"src=${posts[i].post}>
+    <img class="vangogh-post"src=${posts[i].post} alt="Post image">
     </section>
     
     <section>
     <div class="container">
-        <img class="icons" src="images/icon-heart.png">
-        <img class="icons" src="images/icon-comment.png">
-        <img class="icons" id="dm-btn" src="images/icon-dm.png">
+        <img class="icons" src="images/icon-heart.png" alt="Like button shaped as a heart">
+        <img class="icons" src="images/icon-comment.png" alt="Comment-button">
+        <img class="icons" id="dm-btn" src="images/icon-dm.png" alt="Share-button">
     </div>
     <h4 class="likes-amount">${posts[i].likes} likes</h4>
     <div class="poster-container">
